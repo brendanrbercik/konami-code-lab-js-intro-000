@@ -15,19 +15,20 @@ let index = 0;
 
 function init() {
 
-  document.body.addEventListener("keydown", (event) => {
-    const key = e.key;
+}
 
-    if (key === codes[index]) {
-      index++;
+document.body.addEventListener("keydown", (event) => {
+  const key = e.key;
 
-      if (index === codes.length) {
-        alert("KONAMI CODE ENTERED!");
-        index = 0;
-        }
-    }
-      else {
+  if (key === codes[index]) {
+    index++;
+
+    if (index === codes.length) {
+      alert("KONAMI CODE ENTERED!");
       index = 0;
       }
+  }
+    else {
+    index = 0;
     }
-}
+  }
