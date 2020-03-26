@@ -23,12 +23,10 @@ function init() {
 
       if (index === codes.length) {
         alert("KONAMI CODE ENTERED!");
-
         index = 0;
-      }
-    } else {
-      index = 0;
+        }
     }
-  }
-
+      else {
+      index = 0;
+      }
 }
