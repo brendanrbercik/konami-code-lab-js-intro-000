@@ -31,4 +31,4 @@ document.body.addEventListener("keydown", (event) => {
     else {
     index = 0;
     }
-  }
+  });
