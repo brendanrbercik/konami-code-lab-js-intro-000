@@ -30,5 +30,5 @@ function enterCode(e) {
 }
 
 function init() {
-document.body.addEventListener("keydown", enterCode(e))
+document.body.addEventListener("keydown", enterCode)
 }
